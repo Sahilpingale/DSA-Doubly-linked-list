@@ -58,7 +58,7 @@ class LinkedList {
     // Create new node
     const newNode = new Node(value)
 
-    if(index >= this.length){
+    if (index >= this.length) {
       return this.append(value)
     }
 
@@ -83,7 +83,7 @@ class LinkedList {
     return temp
   }
 
-  
+
 
 }
 
@@ -91,5 +91,5 @@ const myLinkedList = new LinkedList(1)
 
 myLinkedList.prepend(0)
 myLinkedList.append(2)
-myLinkedList.insert(100,4)
+myLinkedList.insert(100, 4)
 myLinkedList.print()
